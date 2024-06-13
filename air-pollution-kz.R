@@ -21,7 +21,7 @@ invisible(
   )
 )
 
-url <- "https://api.waqi.info/search/?token=a99c709f0d835b35471c7c8a643434ced3681ceb&keyword=Kazakhstan" # PLEASE INSERT YOUR TOKEN INSTEAD OF *
+url <- "https://api.waqi.info/search/?token=******keyword=Kazakhstan" # PLEASE INSERT YOUR TOKEN INSTEAD OF *
 request <- httr::GET(
   url = url
 )
